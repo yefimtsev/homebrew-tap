@@ -1,8 +1,8 @@
 cask "voe-monitor" do
-  version "1.0.3"
-  sha256 "166e287a75e2fe40269405cb06c6013a4770772fbbe3642ffe9d2582068f63be"
+  version "1.0.4"
+  sha256 "acc861883dff9d0405d8eff7764a829a3ffc1c76be891ff4b9e7d55d587d56e0"
 
-  url "https://github.com/yefimtsev/voe-monitor/releases/download/v#{version}/VOEMonitor.zip"
+  url "https://github.com/yefimtsev/voe-monitor/releases/download/v#{version}/VOEMonitor.dmg"
   name "VOE Monitor"
   desc "Power outage schedule for Vinnytsia region in your menubar"
   homepage "https://github.com/yefimtsev/voe-monitor"
