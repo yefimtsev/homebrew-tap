@@ -1,6 +1,6 @@
 cask "voe-monitor" do
-  version "1.0.0"
-  sha256 "3a521132cc4290f05e0486aa51324497d3e6630d9471d5ab4ee8e398d02c4054"
+  version "1.0.1"
+  sha256 "7f903cafcc9b67979e4e7c85dff691d18f8ecdd768c48a6de90ddff501798dc1"
 
   url "https://github.com/yefimtsev/voe-monitor/releases/download/v#{version}/VOEMonitor.zip"
   name "VOE Monitor"
@@ -13,6 +13,6 @@ cask "voe-monitor" do
 
   zap trash: [
     "~/Library/Application Support/VOEMonitor",
-    "~/Library/Preferences/com.github.yefimtsev.VOEMonitor.plist"
+    "~/Library/Preferences/com.github.yefimtsev.VOEMonitor.plist",
   ]
 end
