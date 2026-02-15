@@ -1,6 +1,6 @@
 cask "voe-monitor" do
-  version "1.2.0"
-  sha256 "38919df8acb071f30460ce155770fea6257edbf9fa5dfb3a42f04a495705c5a2"
+  version "1.2.1"
+  sha256 "387c1aa2771fc773d732e6af07c21149a0726882bee9fa3d740a937bc090284c"
 
   url "https://github.com/yefimtsev/voe-monitor/releases/download/v#{version}/VOEMonitor.dmg"
   name "VOE Monitor"
